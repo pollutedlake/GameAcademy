@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Example_01.cpp">
+      <Filter>Lesson\01_프로그래밍 입문</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Lesson\01_프로그래밍 입문</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2.cpp">
+      <Filter>Lesson\01_프로그래밍 입문</Filter>
+    </ClCompile>
+    <ClCompile Include="과제 1.cpp">
+      <Filter>Lesson\01_프로그래밍 입문</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\과제.cpp">
+      <Filter>Lesson\01_프로그래밍 입문</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_02.cpp">
+      <Filter>Lesson\02_자료형+변수+난수%28C++ 11↓%29</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1.cpp">
+      <Filter>Lesson\02_자료형+변수+난수%28C++ 11↓%29</Filter>
+    </ClCompile>
+    <ClCompile Include="02_과제2.cpp">
+      <Filter>Lesson\02_자료형+변수+난수%28C++ 11↓%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lesson">
+      <UniqueIdentifier>{ad8eea7f-efb8-4c07-a8f0-0a9265ecd3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\01_프로그래밍 입문">
+      <UniqueIdentifier>{55c9c3c1-7aff-4ca6-bfb3-cafb3f4254ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\02_자료형+변수+난수%28C++ 11↓%29">
+      <UniqueIdentifier>{7c59428d-96d0-457c-a505-7c05d72a0be6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
