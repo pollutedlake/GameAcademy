@@ -346,4 +346,11 @@ EX) cin >> num (-10 ~ 10)
 한줄 조사. 조건문
 ㄴ 노트에 적어온다.
 ㄴ비유할것 생각해 온다. (EX : 조건문은 OOO다.)
+
+※ 한줄 조사
+
+- static_cast
+- dynamic_cast
+- const_cast
+- reinterpret_cast
 */
