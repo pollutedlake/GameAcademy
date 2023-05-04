@@ -25,6 +25,24 @@
     <ClCompile Include="02_과제2.cpp">
       <Filter>Lesson\02_자료형+변수+난수%28C++ 11↓%29</Filter>
     </ClCompile>
+    <ClCompile Include="Example_03.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_과제1.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_과제2.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_과제3.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_과제4.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_과제5.cpp">
+      <Filter>Lesson\03_반복문+연산자</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -35,6 +53,9 @@
     </Filter>
     <Filter Include="Lesson\02_자료형+변수+난수%28C++ 11↓%29">
       <UniqueIdentifier>{7c59428d-96d0-457c-a505-7c05d72a0be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\03_반복문+연산자">
+      <UniqueIdentifier>{882e6d7f-b0c3-4226-a5e3-c8e407d543ac}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
