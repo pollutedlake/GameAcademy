@@ -1,6 +1,5 @@
 /*
 도전 과제1. 함수와 포인터를 활용해 가위바위보 완성
-
 - 양식은 수정하면 안되며 메인함수에서는 함수 호출 이외에는 아무것도 작성을 할 수 없다.
 */
 #include<iostream>
@@ -17,29 +16,20 @@ static int* b = &rock;	// 바위의 주소
 int comNum;				// 컴퓨터 숫자
 static int* addressComNum = &comNum;		// 컴퓨터 숫자의 주소
 static int** c = &addressComNum;			// 컴퓨터 숫자의 주소의 주소
-/*static int scissors = 0;
-static int rock = 1;
-static int* rockAddress = &rock;
-static int comNum;
-static int* comNumAddress = &comNum;
-static int** comNumAddressAddress = &comNumAddress;
-static int* a = &scissors;
-static int** b = &rockAddress;
-static int*** c = &comNumAddressAddress;*/
 
 void Function(int* a, int** b, int*** c) {
 	srand(time(NULL));
 	while (true) {
-		****&c = rand() % 3;
+		***c = rand() % 3;
 
 		cout << "가위바위보 게임을 시작합니다." << endl;
-		if (****&c == 0) {
+		if (***c == 0) {
 			cout << "컴퓨터가 가위를 냈다." << endl;
 		}
-		else if (****&c == 1) {
+		else if (***c == 1) {
 			cout << "컴퓨터가 바위를 냈다." << endl;
 		}
-		else if (****&c == 2) {
+		else if (***c == 2) {
 			cout << "컴퓨터가 보를 냈다." << endl;
 		}
 		int player;
@@ -51,19 +41,19 @@ void Function(int* a, int** b, int*** c) {
 			break;
 		}
 		else {
-			if (player == ****&c) {
+			if (player == ***c) {
 				cout << "비겼습니다." << endl;
 			}
-			else if (player == **&a) {
-				if (****&c == ***&b) {
+			else if (player == *a) {
+				if (***c == **b) {
 					cout << "졌습니다." << endl;
 				}
 				else {
 					cout << "이겼습니다" << endl;
 				}
 			}
-			else if(player == ***&b){
-				if (****&c == **&a) {
+			else if (player == **b) {
+				if (***c == *a) {
 					cout << "이겼습니다." << endl;
 				}
 				else {
@@ -71,7 +61,7 @@ void Function(int* a, int** b, int*** c) {
 				}
 			}
 			else {
-				if (****&c == **&a) {
+				if (***c == *a) {
 					cout << "졌습니다." << endl;
 				}
 				else {
