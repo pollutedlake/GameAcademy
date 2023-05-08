@@ -43,6 +43,21 @@
     <ClCompile Include="03_과제5.cpp">
       <Filter>Lesson\03_반복문+연산자</Filter>
     </ClCompile>
+    <ClCompile Include="Example_04.cpp">
+      <Filter>Lesson\04_조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="04_과제1.cpp">
+      <Filter>Lesson\04_조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="04_과제2.cpp">
+      <Filter>Lesson\04_조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_05.cpp">
+      <Filter>Lesson\04_조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="04_과제3.cpp">
+      <Filter>Lesson\04_조건문</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -56,6 +71,9 @@
     </Filter>
     <Filter Include="Lesson\03_반복문+연산자">
       <UniqueIdentifier>{882e6d7f-b0c3-4226-a5e3-c8e407d543ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\04_조건문">
+      <UniqueIdentifier>{6954d6c4-06e6-4ac8-8ca3-a2cd0e13db16}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
