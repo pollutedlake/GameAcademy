@@ -58,6 +58,18 @@
     <ClCompile Include="04_과제3.cpp">
       <Filter>Lesson\04_조건문</Filter>
     </ClCompile>
+    <ClCompile Include="Example_06.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_07.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="05_과제1.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="05_과제2.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -74,6 +86,9 @@
     </Filter>
     <Filter Include="Lesson\04_조건문">
       <UniqueIdentifier>{6954d6c4-06e6-4ac8-8ca3-a2cd0e13db16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\05_함수 + 변/상수 + 전처리기">
+      <UniqueIdentifier>{29e51d9f-af71-4f6f-835a-0792ae43ce0c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
