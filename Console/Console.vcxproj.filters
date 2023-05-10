@@ -82,6 +82,9 @@
     <ClCompile Include="05_과제4.cpp">
       <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">

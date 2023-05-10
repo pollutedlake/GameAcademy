@@ -21,7 +21,75 @@
 #include<iostream>
 #include<time.h>
 #include<Windows.h>
+#include<thread>
 using namespace std;
+
+static bool run = true;
+static int input = 2;
+static int wantNFirst = 10;
+static int wantNSecond = 10;
+static int wantNThird = 10;
+static int firstN;
+static int secondN;
+static int thirdN;
+
+void stop(bool& run, int& input) {
+	srand(time(NULL));
+	firstN = rand() % 10;
+	secondN = rand() % 10;
+	thirdN = rand() % 10;
+	int count = 0;
+	while(run) 
+	{
+		system("cls");
+		cout << firstN << secondN << thirdN << endl;
+		switch (input)
+		{
+			case 0:
+				count++;
+				if (count < 30) 
+				{
+					secondN = ++secondN % 10;
+				}
+				if (count < 60)
+				{
+					thirdN  = ++thirdN % 10;
+				}
+				else {
+					run = false;
+				}
+				cout << "룰렛을 멈추려면 0을 입력하세요.(1 : 치트)" << endl;
+			break;
+			case 1:
+				if (firstN != wantNFirst)
+				{
+					firstN = ++firstN % 10;
+				}
+				if (secondN != wantNSecond || count < 30)
+				{
+					secondN = ++secondN % 10;
+					count++;
+				}
+				if (thirdN != wantNThird || count < 60)
+				{
+					thirdN = ++thirdN % 10;
+					count++;
+				}
+				else {
+					run = false;
+				}
+				cout << "원하는 세자리 수를 입력하세요 : " << endl;
+			break;
+			case 2:
+				firstN = ++firstN % 10;
+				secondN = ++secondN % 10;
+				thirdN = ++thirdN % 10;
+				cout << "룰렛을 멈추려면 0을 입력하세요.(1 : 치트)" << endl;
+			break;
+		}
+		Sleep(100);
+	}
+}
 
 void main() {
 	srand(time(NULL));
@@ -29,18 +97,16 @@ void main() {
 	int betting;
 	cout << "배팅금액을 입력하세요 : ";
 	cin >> betting;
-	int firstN = rand() % 10;
-	int secondN = rand() % 10;
-	int thirdN = rand() % 10;
-	do
-	{
-		cout << firstN << secondN << thirdN << "\t 룰렛을 멈추려면 0을 입력하세요.";
-		firstN = ++firstN % 10;
-		secondN = ++secondN % 10;
-		thirdN = ++thirdN % 10;
-		Sleep(100);
-		system("cls");
-	} while (true);
+	thread roulette{stop, ref(run), ref(input)};
+	cin >> input;
+	if (input == 1) {
+		int wantN;
+		cin >> wantN;
+		wantNFirst  = wantN / 100;
+		wantNSecond = (wantN % 100) / 10;
+		wantNThird = wantN % 10;
+	}
+	roulette.join();
 	if ((firstN == secondN) || (firstN == thirdN) || (secondN == thirdN)) {
 		if ((firstN == secondN) && (secondN == thirdN)) {
 			if (firstN == 7) {
