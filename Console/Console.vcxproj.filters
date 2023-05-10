@@ -70,6 +70,18 @@
     <ClCompile Include="05_과제2.cpp">
       <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
     </ClCompile>
+    <ClCompile Include="Example_08.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_09.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="05_과제3.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="05_과제4.cpp">
+      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
