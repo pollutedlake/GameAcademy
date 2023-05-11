@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<time.h>
+#include <algorithm>
 using namespace std;
 
 namespace WOLNAMPPONG
@@ -9,5 +10,5 @@ namespace WOLNAMPPONG
 
 	char AJQK(int n);
 
-	char cardPattern(int n);
+	void cardPattern(int n);
 }

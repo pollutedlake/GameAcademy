@@ -43,7 +43,7 @@ namespace WOLNAMPPONG
 		{
 			deck[i] = (i % 13) + 1 + i / 13 * 100;
 		}
-		int shuffleN = rand() % 511;
+		int shuffleN = rand() % 500 + 500;
 		cout << "카드를 섞어줍니다.\n";
 		for (int i = 0; i < shuffleN; i++) {
 			int shuffleFirst = rand() % 52;
@@ -62,11 +62,41 @@ namespace WOLNAMPPONG
 			int firstCard = deck[deckSize - 1];
 			int secondCard = deck[deckSize - 2];
 			int thirdCard = deck[deckSize - 3];
-			cout << "첫번째 카드 : " << cardPattern(firstCard / 100) << firstCard % 100 << endl;
-			cout << "두번째 카드 : " << cardPattern(secondCard / 100) << secondCard % 100 << endl;
-			cout << "배팅할 금액을 입력해주세요(최소1000) : ";
-			cin >> betting;
-			cout << "세 번째 카드 : " << cardPattern(thirdCard / 100) << thirdCard % 100 << endl;
+			cout << "첫번째 카드 : ";
+			cardPattern(firstCard / 100);
+			if(firstCard % 100 > 1 && firstCard % 100 < 11)
+			{
+				cout << firstCard % 100 << endl;
+			}
+			else
+			{
+				cout << AJQK(firstCard % 100) << endl;
+			}
+			cout << "두번째 카드 : ";
+			cardPattern(secondCard / 100);
+			if (secondCard % 100 > 1 && secondCard % 100 < 11)
+			{
+				cout << secondCard % 100 << endl;
+			}
+			else
+			{
+				cout << AJQK(secondCard % 100) << endl;
+			}
+			do 
+			{
+				cout << "배팅할 금액을 입력해주세요(최소1000) : ";
+				cin >> betting;
+			} while ((betting < 1000) || (betting > money));
+			cout << "세 번째 카드 : ";
+			cardPattern(thirdCard / 100);
+			if (thirdCard % 100 > 1 && thirdCard % 100 < 11)
+			{
+				cout << thirdCard % 100 << endl;
+			}
+			else
+			{
+				cout << AJQK(thirdCard % 100) << endl;
+			}
 			if (((thirdCard % 100) < max(firstCard % 100, secondCard % 100)) && ((thirdCard % 100) > min(firstCard % 100, secondCard % 100)))
 			{
 				money += betting * 2;
@@ -98,22 +128,21 @@ namespace WOLNAMPPONG
 		}
 	}
 
-	char cardPattern(int cardPattern)
+	void cardPattern(int cardPattern)
 	{
-		cout << cardPattern << endl;
 		switch (cardPattern)
 		{
 		case 0:
-			return '♣';
+			cout << "♣";
 			break;
 		case 1:
-			return '◆';
+			cout << "◆";
 			break;
 		case 2:
-			return '♠';
+			cout << "♠";
 			break;
 		case 3:
-			return '♥';
+			cout << "♥";
 			break;
 		}
 	}
