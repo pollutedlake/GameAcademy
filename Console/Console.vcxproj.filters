@@ -4,7 +4,7 @@
     <ClCompile Include="Example_01.cpp">
       <Filter>Lesson\01_프로그래밍 입문</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main_01.cpp">
       <Filter>Lesson\01_프로그래밍 입문</Filter>
     </ClCompile>
     <ClCompile Include="과제2.cpp">
@@ -82,8 +82,20 @@
     <ClCompile Include="05_과제4.cpp">
       <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>Lesson\05_함수 + 변/상수 + 전처리기</Filter>
+    <ClCompile Include="Example_10.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_02.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제1.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제2.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제Main.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -105,5 +117,19 @@
     <Filter Include="Lesson\05_함수 + 변/상수 + 전처리기">
       <UniqueIdentifier>{29e51d9f-af71-4f6f-835a-0792ae43ce0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\06_배열 + 난수 + 셔플">
+      <UniqueIdentifier>{dc3bc58d-f9ca-4b10-8c3f-746cd47f5230}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Example_10.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제1.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제2.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
