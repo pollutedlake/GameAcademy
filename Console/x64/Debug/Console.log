@@ -1,0 +1,7 @@
+﻿  과제.cpp
+c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. '..\..\..\..\Desktop\과제.cpp': No such file or directory
+  Example_04.cpp
+C:\Users\언리얼\source\repos\Console\Console\Example_04.cpp(92,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  과제2.cpp
+C:\Users\언리얼\source\repos\Console\Console\과제2.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...

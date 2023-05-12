@@ -97,6 +97,21 @@
     <ClCompile Include="06_과제Main.cpp">
       <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
     </ClCompile>
+    <ClCompile Include="Example_11.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제3.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제4.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제5.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
+    <ClCompile Include="06_과제6.cpp">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -129,6 +144,18 @@
       <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
     </ClInclude>
     <ClInclude Include="06_과제2.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제3.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제4.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제5.h">
+      <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="06_과제6.h">
       <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
     </ClInclude>
   </ItemGroup>
