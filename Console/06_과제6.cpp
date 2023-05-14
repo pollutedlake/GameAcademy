@@ -45,8 +45,8 @@ namespace ASSIGNMENT_6
 			int shuffleN = shuffleRange(rnd);
 			for (int i = 0; i < shuffleN; i++)
 			{
-				int dest = rand() % 53;
-				int sour = rand() % 53;
+				int dest = rand() % 52;
+				int sour = rand() % 52;
 				int temp = deck[dest];
 				deck[dest] = deck[sour];
 				deck[sour] = temp;
@@ -61,7 +61,7 @@ namespace ASSIGNMENT_6
 			int sixthCard = deck[deckSize - 6];
 			cout << "첫번째 카드 : ";
 			cardPattern(firstCard / 100);
-			cardNumber(secondCard % 100);
+			cardNumber(firstCard % 100);
 			cout << "두번째 카드 : ";
 			cardPattern(secondCard / 100);
 			cardNumber(secondCard % 100);
