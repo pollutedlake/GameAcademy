@@ -5,37 +5,35 @@
 #include "06_과제5.h"
 #include "06_과제6.h"
 
-#define ASSIGMENT_1		1;
-#define ASSIGMENT_2		2;
-#define ASSIGMENT_3		3;
-#define ASSIGMENT_4		4;
-#define ASSIGMENT_5		5;
-#define ASSIGMENT_6		6;
+#define ASSIGMENT1		1
+#define ASSIGMENT2		2
+#define ASSIGMENT3		3
+#define ASSIGMENT4		4
+#define ASSIGMENT5		5
+#define ASSIGMENT6		6
+
+#define ASSIGNMENT		ASSIGMENT6
 
 void main()
 {
-	int assignment = ASSIGMENT_6;
-	switch (assignment)
-	{
-	case 1:
-		AVERAGE::averageInputValue();
-		AVERAGE::averageNotInputValue();
-		break;
-	case 2:
-		WOLNAMPPONG::wolnamppongPlay();
-		break;
-	case 3:
-		ASSIGNMENT_3::randomDevice();
-		break;
-	case 4:
-		ASSIGNMENT_4::sum();
-		break;
-	case 5:
-		ASSIGNMENT_5::findMatch();
-		break;
-	case 6:
-		ASSIGNMENT_6::highlowseven();
-		break;
-	}
-	
+#if ASSIGNMENT == ASSIGMENT1
+	AVERAGE::averageInputValue();
+	AVERAGE::averageNotInputValue();
+
+#elif ASSIGNMENT == ASSIGMENT2
+	WOLNAMPPONG::wolnamppongPlay();
+
+#elif ASSIGNMENT == ASSIGMENT3
+	ASSIGNMENT_3::randomDevice();
+
+#elif ASSIGNMENT == ASSIGMENT4
+	ASSIGNMENT_4::sum();
+
+#elif ASSIGNMENT == ASSIGMENT5
+	ASSIGNMENT_5::findMatch();
+
+#elif ASSIGNMENT == ASSIGMENT6
+	ASSIGNMENT_6::highlowseven();
+
+#endif	
 }

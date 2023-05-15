@@ -112,6 +112,24 @@
     <ClCompile Include="06_과제6.cpp">
       <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
     </ClCompile>
+    <ClCompile Include="Main_03.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_13.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_12.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="07_과제Main.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="07_과제1.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="07_과제2.cpp">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -135,6 +153,9 @@
     <Filter Include="Lesson\06_배열 + 난수 + 셔플">
       <UniqueIdentifier>{dc3bc58d-f9ca-4b10-8c3f-746cd47f5230}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lesson\07_삼항 연산자 + 문자열">
+      <UniqueIdentifier>{7248de77-8627-4bd3-b168-da929ef59072}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Example_10.h">
@@ -157,6 +178,15 @@
     </ClInclude>
     <ClInclude Include="06_과제6.h">
       <Filter>Lesson\06_배열 + 난수 + 셔플</Filter>
+    </ClInclude>
+    <ClInclude Include="Example_12.h">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClInclude>
+    <ClInclude Include="07_과제1.h">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClInclude>
+    <ClInclude Include="07_과제2.h">
+      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
