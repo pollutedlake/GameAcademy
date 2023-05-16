@@ -68,7 +68,8 @@ namespace ASSIGNMENT_3
 				{
 					count++;
 				}
-				else {
+				else 
+				{
 					break;
 				}
 			}
@@ -113,9 +114,9 @@ namespace ASSIGNMENT_3
 			}
 			count = 0;
 			// 오른쪽 위 대각선 확인
-			if (numIndex[choice] % 4 == 0)
+			if (numIndex[choice] % 4 == 0 && numIndex[choice] < 24)
 			{
-				for (int i = 4; i < boardSize; i += 4)
+				for (int i = 4; i < boardSize - 1; i += 4)
 				{
 					if (board[i] / 100 != 0)
 					{
