@@ -115,9 +115,6 @@
     <ClCompile Include="Main_03.cpp">
       <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
     </ClCompile>
-    <ClCompile Include="Example_13.cpp">
-      <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
-    </ClCompile>
     <ClCompile Include="Example_12.cpp">
       <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
     </ClCompile>
@@ -129,6 +126,27 @@
     </ClCompile>
     <ClCompile Include="07_과제2.cpp">
       <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_13.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_04.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="08_과제Main.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="08_과제1.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="08_과제2.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="08_과제3.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="08_과제4.cpp">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +173,9 @@
     </Filter>
     <Filter Include="Lesson\07_삼항 연산자 + 문자열">
       <UniqueIdentifier>{7248de77-8627-4bd3-b168-da929ef59072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\08_사용자 정의 자료형">
+      <UniqueIdentifier>{ce08734a-f398-4e7a-ab01-bbf178b89912}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +208,21 @@
     </ClInclude>
     <ClInclude Include="07_과제2.h">
       <Filter>Lesson\07_삼항 연산자 + 문자열</Filter>
+    </ClInclude>
+    <ClInclude Include="Example_13.h">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClInclude>
+    <ClInclude Include="08_과제1.h">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClInclude>
+    <ClInclude Include="08_과제2.h">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClInclude>
+    <ClInclude Include="08_과제3.h">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
+    </ClInclude>
+    <ClInclude Include="08_과제4.h">
+      <Filter>Lesson\08_사용자 정의 자료형</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

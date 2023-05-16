@@ -87,7 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -187,6 +187,13 @@
     <ClCompile Include="07_과제1.cpp" />
     <ClCompile Include="07_과제2.cpp" />
     <ClCompile Include="07_과제Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="08_과제1.cpp" />
+    <ClCompile Include="08_과제2.cpp" />
+    <ClCompile Include="08_과제3.cpp" />
+    <ClCompile Include="08_과제4.cpp" />
+    <ClCompile Include="08_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Example_08.cpp">
@@ -241,6 +248,9 @@
     <ClCompile Include="Main_03.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Main_04.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="과제 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -260,8 +270,13 @@
     <ClInclude Include="06_과제6.h" />
     <ClInclude Include="07_과제1.h" />
     <ClInclude Include="07_과제2.h" />
+    <ClInclude Include="08_과제1.h" />
+    <ClInclude Include="08_과제2.h" />
+    <ClInclude Include="08_과제3.h" />
+    <ClInclude Include="08_과제4.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
+    <ClInclude Include="Example_13.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
