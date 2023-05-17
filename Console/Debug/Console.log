@@ -1,10 +1,3 @@
-﻿  08_과제3.cpp
-  08_과제4.cpp
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(300,21): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(302,18): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(308,21): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(310,18): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(316,21): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\08_과제4.cpp(318,18): warning C4002: 함수 같은 매크로 호출 'max'에 대해 인수가 너무 많습니다.
-  코드를 생성하고 있습니다...
-  Console.vcxproj -> C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Debug\Console.exe
+﻿  08_과제6.cpp
+C:\Users\언리얼\source\repos\Console\Console\08_과제6.cpp(48,11): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  Console.vcxproj -> C:\Users\언리얼\source\repos\Console\Debug\Console.exe

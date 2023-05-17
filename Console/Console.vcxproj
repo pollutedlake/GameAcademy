@@ -193,6 +193,9 @@
     <ClCompile Include="08_과제2.cpp" />
     <ClCompile Include="08_과제3.cpp" />
     <ClCompile Include="08_과제4.cpp" />
+    <ClCompile Include="08_과제5.cpp" />
+    <ClCompile Include="08_과제6.cpp" />
+    <ClCompile Include="08_과제7.cpp" />
     <ClCompile Include="08_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
@@ -238,7 +241,15 @@
     <ClCompile Include="Example_12.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Example_13.cpp" />
+    <ClCompile Include="Example_13.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Example_14.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Example_15.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -274,6 +285,9 @@
     <ClInclude Include="08_과제2.h" />
     <ClInclude Include="08_과제3.h" />
     <ClInclude Include="08_과제4.h" />
+    <ClInclude Include="08_과제5.h" />
+    <ClInclude Include="08_과제6.h" />
+    <ClInclude Include="08_과제7.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
     <ClInclude Include="Example_13.h" />
