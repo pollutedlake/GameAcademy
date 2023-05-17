@@ -12,7 +12,7 @@
 
 - 그리고 작성한 방법에 대해서 간단하게 왜 그렇게 했는지 주석을 추가하시오.
 
-문제. 주어진 문자열을 단어 단위로 순서를 뒤지어 출력하세요.
+문제. 주어진 문자열을 단어 단위로 순서를 뒤집어 출력하세요.
 <예>
 입력값 : "Hello World this is Pearl Abyss"
 반환값 : "Pearl Abyss is this World Hello"
@@ -32,42 +32,6 @@ namespace ASSIGNMENT_5
 {
 	void ReverseWorld(char* output, int outputArrsySize, const char* input)
 	{
-		char word[10][500];
-		int len = 0;
-		int wordLen = 0;
-		outputArrsySize = 0;
-		while (true)
-		{
-			if (input[len] == '\0') {
-				break;
-			}
-			if (input[len] >= 'A')
-			{
-				word[outputArrsySize][wordLen + 1] = '\0';
-				outputArrsySize++;
-				wordLen = 0;
-			}
-			//cout << input[len] << endl;
-			word[outputArrsySize][wordLen] = input[len];
-			wordLen++;
-			len++;
-		}
-		int outputLen = 0;
-		for (int i = outputArrsySize; i  >= 0; i--)
-		{
 			
-			for (int j = 0; j < 500; j++)
-			{
-				if (word[i][j] == '\0')
-				{
-					break;
-				}
-				output[outputLen] = word[i][j];
-				outputLen++;
-			}
-			output[outputLen] = ' ';
-			outputLen++;
-		}
-		cout << output << endl;
 	}
 }

@@ -4,6 +4,7 @@
 #include"08_苞力4.h"
 #include"08_苞力5.h"
 #include"08_苞力6.h"
+#include"08_苞力7.h"
 
 #define ASSIGNMENT1		1
 #define ASSIGNMENT2		2
@@ -13,7 +14,7 @@
 #define ASSIGNMENT6		6
 #define ASSIGNMENT7		7
 
-#define ASSINGMENT		ASSIGNMENT6
+#define ASSINGMENT		ASSIGNMENT5
 
 void main()
 {
@@ -34,9 +35,9 @@ void main()
 	ASSIGNMENT_4::playBinggo();
 
 #elif ASSINGMENT == ASSIGNMENT5
-	char input[20];
+	char input[1000];
 	cin >> input;
-	char output[20];
+	char output[1000];
 	int outputArrsySize = 0;
 	ASSIGNMENT_5::ReverseWorld(output, outputArrsySize, input);
 
@@ -45,7 +46,8 @@ void main()
 	ASSIGNMENT_6::numSlide();
 
 #elif ASSINGMENT == ASSIGNMENT7
-
+	
+	ASSIGNMENT_7::numSlide();
 
 #endif // ASSIGMENT == ASSIGNMENT1
 

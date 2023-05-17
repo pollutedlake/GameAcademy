@@ -122,7 +122,7 @@ void main()
 
 	char strI[10] = "ABCD EFGH";
 	
-	strtok(strI, " ");
+	//strtok(strI, " ");
 
 	cout << strI << endl;
 	
