@@ -196,6 +196,7 @@
     <ClCompile Include="08_과제5.cpp" />
     <ClCompile Include="08_과제6.cpp" />
     <ClCompile Include="08_과제7.cpp" />
+    <ClCompile Include="08_과제8.cpp" />
     <ClCompile Include="08_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
@@ -288,6 +289,7 @@
     <ClInclude Include="08_과제5.h" />
     <ClInclude Include="08_과제6.h" />
     <ClInclude Include="08_과제7.h" />
+    <ClInclude Include="08_과제8.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
     <ClInclude Include="Example_13.h" />

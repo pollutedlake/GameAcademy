@@ -5,6 +5,7 @@
 #include"08_苞力5.h"
 #include"08_苞力6.h"
 #include"08_苞力7.h"
+#include"08_苞力8.h"
 
 #define ASSIGNMENT1		1
 #define ASSIGNMENT2		2
@@ -13,8 +14,9 @@
 #define ASSIGNMENT5		5
 #define ASSIGNMENT6		6
 #define ASSIGNMENT7		7
+#define ASSIGNMENT8		8
 
-#define ASSINGMENT		ASSIGNMENT5
+#define ASSINGMENT		ASSIGNMENT7
 
 void main()
 {

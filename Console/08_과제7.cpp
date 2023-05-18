@@ -201,7 +201,7 @@ namespace ASSIGNMENT_7
 					{
 						cout << numSlidePtr[i] << endl;
 					}
-					Sleep(1000);
+					Sleep(10);
 				}
 				num[blank] = num[blank - 1];
 				num[blank - 1] = 20;
@@ -233,7 +233,7 @@ namespace ASSIGNMENT_7
 					{
 						cout << numSlidePtr[i] << endl;
 					}
-					Sleep(1000);
+					Sleep(10);
 				}
 				num[blank] = num[blank + 1];
 				num[blank + 1] = 20;
@@ -265,7 +265,7 @@ namespace ASSIGNMENT_7
 					{
 						cout << numSlidePtr[i] << endl;
 					}
-					Sleep(1000);
+					Sleep(10);
 				}
 				num[blank] = num[blank - 4];
 				num[blank - 4] = 20;
@@ -297,7 +297,7 @@ namespace ASSIGNMENT_7
 					{
 						cout << numSlidePtr[i] << endl;
 					}
-					Sleep(1000);
+					Sleep(10);
 				}
 				num[blank] = num[blank + 4];
 				num[blank + 4] = 20;
