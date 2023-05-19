@@ -166,6 +166,42 @@
     <ClCompile Include="08_과제8.cpp">
       <Filter>Lesson\08_사용자 정의 자료형 + 4대 문자열 + 포인터</Filter>
     </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_05.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="10_과제1.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="10_과제Main.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="10_과제2.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="10_과제3.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="10_과제4.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="FamilyMember.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="RPS_Me.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="RPS_Opponent.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="FG_Player.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="FG_Enemy.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -194,6 +230,9 @@
     </Filter>
     <Filter Include="Lesson\08_사용자 정의 자료형 + 4대 문자열 + 포인터">
       <UniqueIdentifier>{ce08734a-f398-4e7a-ab01-bbf178b89912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\10_클래스">
+      <UniqueIdentifier>{9c45c74b-7458-40c0-a638-e1f387127510}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -254,5 +293,44 @@
     <ClInclude Include="08_과제8.h">
       <Filter>Lesson\08_사용자 정의 자료형 + 4대 문자열 + 포인터</Filter>
     </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="10_과제1.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="10_과제2.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="10_과제3.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="10_과제4.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyMember.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="RPS_Me.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="RPS_Opponent.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="FG_Player.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="FG_Enemy.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Console.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap2.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap3.bmp" />
   </ItemGroup>
 </Project>

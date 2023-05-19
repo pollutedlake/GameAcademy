@@ -198,6 +198,13 @@
     <ClCompile Include="08_과제7.cpp" />
     <ClCompile Include="08_과제8.cpp" />
     <ClCompile Include="08_과제Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="10_과제1.cpp" />
+    <ClCompile Include="10_과제2.cpp" />
+    <ClCompile Include="10_과제3.cpp" />
+    <ClCompile Include="10_과제4.cpp" />
+    <ClCompile Include="10_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Example_08.cpp">
@@ -251,6 +258,10 @@
     <ClCompile Include="Example_15.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="FamilyMember.cpp" />
+    <ClCompile Include="FG_Enemy.cpp" />
+    <ClCompile Include="FG_Player.cpp" />
+    <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -263,6 +274,11 @@
     <ClCompile Include="Main_04.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Main_05.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="RPS_Me.cpp" />
+    <ClCompile Include="RPS_Opponent.cpp" />
     <ClCompile Include="과제 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -290,9 +306,28 @@
     <ClInclude Include="08_과제6.h" />
     <ClInclude Include="08_과제7.h" />
     <ClInclude Include="08_과제8.h" />
+    <ClInclude Include="10_과제1.h" />
+    <ClInclude Include="10_과제2.h" />
+    <ClInclude Include="10_과제3.h" />
+    <ClInclude Include="10_과제4.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
     <ClInclude Include="Example_13.h" />
+    <ClInclude Include="FamilyMember.h" />
+    <ClInclude Include="FG_Enemy.h" />
+    <ClInclude Include="FG_Player.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RPS_Me.h" />
+    <ClInclude Include="RPS_Opponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Console.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="bitmap3.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
