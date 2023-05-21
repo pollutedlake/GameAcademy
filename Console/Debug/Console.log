@@ -1,3 +1,5 @@
-﻿  10_과제2.cpp
-  10_과제Main.cpp
-  Console.vcxproj -> C:\Users\언리얼\source\repos\Console\Debug\Console.exe
+﻿  10_과제3.cpp
+C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\10_과제3.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\10_과제3.cpp(63,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Console\10_과제3.cpp(63,30): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Console.vcxproj -> C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Debug\Console.exe

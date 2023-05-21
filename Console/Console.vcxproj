@@ -261,6 +261,7 @@
     <ClCompile Include="FamilyMember.cpp" />
     <ClCompile Include="FG_Enemy.cpp" />
     <ClCompile Include="FG_Player.cpp" />
+    <ClCompile Include="FG_UI.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -316,6 +317,7 @@
     <ClInclude Include="FamilyMember.h" />
     <ClInclude Include="FG_Enemy.h" />
     <ClInclude Include="FG_Player.h" />
+    <ClInclude Include="FG_UI.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RPS_Me.h" />
@@ -325,9 +327,7 @@
     <ResourceCompile Include="Console.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="bitmap1.bmp" />
     <Image Include="bitmap2.bmp" />
-    <Image Include="bitmap3.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

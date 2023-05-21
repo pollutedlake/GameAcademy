@@ -12,9 +12,22 @@ FG_Player::~FG_Player()
 
 }
 
-void FG_Player::printPlayer()
+char* FG_Player::returnMotion(int i)
 {
+	switch (state)
+	{
+	case 0:
+		return playerIdle[i];
+		break;
+	case 1:
+		return playerAttack[i];
+		break;
+	}
+}
 
+int FG_Player::returnPos()
+{
+	return pos;
 }
 
 void FG_Player::getDamege(int damage)
@@ -23,21 +36,25 @@ void FG_Player::getDamege(int damage)
 	if (hp <= 0)
 	{
 		hp = 0;
-		die();
 	}
 }
 
 void FG_Player::move(int dir)
 {
-	x += dir;
+	pos += dir;
 }
 
-void FG_Player::attack()
+void FG_Player::changeState()
 {
-
+	state = !state;
 }
 
-void FG_Player::die()
+int FG_Player::returnState()
 {
+	return state;
+}
 
+int FG_Player::returnHp()
+{
+	return hp;
 }

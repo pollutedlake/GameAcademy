@@ -7,7 +7,7 @@
 #define ASSIGNMENT3		3
 #define ASSIGNMENT4		4
 
-#define ASSIGNMENT		ASSIGNMENT1
+#define ASSIGNMENT		ASSIGNMENT3
 
 
 void main()

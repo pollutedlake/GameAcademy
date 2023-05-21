@@ -202,6 +202,9 @@
     <ClCompile Include="FG_Enemy.cpp">
       <Filter>Lesson\10_클래스</Filter>
     </ClCompile>
+    <ClCompile Include="FG_UI.cpp">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -324,13 +327,12 @@
       <Filter>Lesson\10_클래스</Filter>
     </ClInclude>
     <ClInclude Include="resource.h" />
+    <ClInclude Include="FG_UI.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Console.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="bitmap2.bmp" />
-    <Image Include="bitmap1.bmp" />
-    <Image Include="bitmap3.bmp" />
   </ItemGroup>
 </Project>

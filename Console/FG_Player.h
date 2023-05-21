@@ -1,34 +1,65 @@
 #pragma once
-#include <iostream>
+#include<iostream>
+#include<Windows.h>
 using namespace std;
 
 class FG_Player
 {
 private:
-	int hp;
-	int x;
-	char playerIdle[100][100] = { "  бсбсбс   ",
-								  " бс   бс  ",
-								  " бс   бс  ",
-								  " бс   бс  ",
-								  "  бсбсбс   ",
-								  "   бс    ",
-								  "  бсбсбс   ",
+	int hp = 100;
+	int pos = 0;
+	char* playerIdle[19] =	  {   "  бсбсбс",
+								  " бс    бс",
+								  " бс    бс",
+								  " бс    бс",
+								  "  бсбсбс",
+								  "    бс",
+								  "  бсбсбс",
 								  " бс бс бс бс",
-								  "бс  бс  бс ",
-								  " бс бс    ",
-								  "  бсбс    ",
-								  "   бс    ",
-								  "   бс    ",
+								  "бс  бс  бс",
+								  " бс бс",
+								  "  бсбс",
+								  "    бс",
+								  "    бс",
+								  "    бс",
+								  "   бс бс",
+								  "  бс   бс",
+								  "бс      бс",
+								  "бс      бс",
+								  "бс      бс",
 	};
-	char playerAttack[100][100] = {};
+	char* playerAttack[19] = {   "    бсбсбс",
+								    "   бс   бс",
+								    "   бс   бс",
+								    "   бс   бс",
+								    "    бсбсбс",
+								    "     бс",
+								    "    бсбсбсбсбсбсбсбс",
+								    "   бс бс",
+								    "  бс  бс",
+								    "   бс бс",
+								    "    бсбс",
+								    "     бс",
+								    "     бс",
+								    "     бс",
+								    "    бс бс",
+								    "   бс   бс",
+								    "  бс     бс",
+								    " бс     бс",
+								    "бс     бс",
+	
+	};
+	int state = 0;
+
 public:
 	FG_Player();
 	~FG_Player();
-	void printPlayer();
+	char* returnMotion(int i);
+	int returnPos();
 	void getDamege(int damage);
 	void move(int dir);
-	void attack();
-	void die();
+	void changeState();
+	int returnState();
+	int returnHp();
 };
 
