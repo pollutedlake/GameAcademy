@@ -20,7 +20,7 @@ public:
 	void setType(int type) { _type = type; }
 	char* getName() { return _name; }
 	void setName(char* name) { _name = name; }
-	void setAccessoryStat(int accessoryStat) { _accessoryStat = accessoryStat };
+	void setAccessoryStat(int accessoryStat) { _accessoryStat = accessoryStat; }
 	int getAccessoryStat() { return _accessoryStat; }
 };
 

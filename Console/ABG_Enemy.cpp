@@ -20,7 +20,6 @@ int ABG_Enemy::attack()
 	{
 		if (_mp >= skill1.coolTime)
 		{
-			cout << "스킬1 사용 데미지" << skill1.damage << endl;
 			skill1.coolTime = skill1.maxCoolTime;
 			return skill1.damage + 100;
 		}
@@ -28,12 +27,17 @@ int ABG_Enemy::attack()
 	else
 	{
 		skill1.coolTime--;
-		cout << "평타 데미지" << _attack << endl;
 		return _attack;
 	}
 }
 
-void ABG_Enemy::getDamage(int damage)
+int ABG_Enemy::getDamage(int damage)
 {
-	_hp -= damage;
+	_hp -= damage % 100;
+	return damage;
+}
+
+char* ABG_Enemy::getEnemyDot(int i)
+{
+	return enemyIdle[i];
 }

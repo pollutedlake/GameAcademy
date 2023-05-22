@@ -5,9 +5,10 @@ ABG_Player::ABG_Player()
 	_hp = 100;
 	_attack = 3;
 	_mp = 100;
-	skill1 = { "해머", 0, 3, 5, 10 };
-	skill2 = { "캐논", 0, 5, 12, 20 };
+	skill1 = { "해머", 0, 3, 5, 5 };
+	skill2 = { "캐논", 0, 5, 12, 10 };
 	_luck = 10;
+	_speed = 2;
 	weapon = new ABG_Equipment;
 	armor = new ABG_Equipment;
 	accessory = new ABG_Equipment;
@@ -36,6 +37,11 @@ ABG_Player::~ABG_Player()
 	}
 }
 
+char* ABG_Player::getPlayerDot(int i)
+{
+	return playerIdle[i];
+}
+
 int ABG_Player::attack()
 {
 	random_device oRandomDevice;
@@ -45,7 +51,6 @@ int ABG_Player::attack()
 	if (critical <= _luck)
 	{
 		critical = 2;
-		cout << "크리티컬" << endl;
 	}
 	else
 	{
@@ -59,48 +64,51 @@ int ABG_Player::attack()
 			{
 				skill1.coolTime = skill1.maxCoolTime;
 				setMP(_mp - skill1.mp);
-				cout << "스킬1 사용 데미지" << skill1.damage << endl;
-				return skill1.damage * critical;
+				skill2.coolTime--;
+				return skill1.damage * critical + 100;
 			}
 			else
 			{
 				setMP(_mp - skill2.mp);
-				cout << "스킬2 사용 데미지" << skill2.damage << endl;
 				skill2.coolTime = skill2.maxCoolTime;
-				return skill2.damage * critical;
+				skill1.coolTime--;
+				return skill2.damage * critical + 200;
 			}
 		}
 		else {
 
 		}
 		setMP(_mp - skill1.mp);
-		cout << "스킬1 사용 데미지" << skill1.damage << endl;
 		skill1.coolTime = skill1.maxCoolTime;
-		return skill1.damage * critical;
+		skill2.coolTime--;
+		return skill1.damage * critical + 100;
 	}
 	else if (skill2.coolTime < 1 && _mp >= skill2.mp)
 	{
 		setMP(_mp - skill2.mp);
-		cout << "스킬2 사용 데미지" << skill2.damage << endl;
 		skill2.coolTime = skill2.maxCoolTime;
-		return skill2.damage * critical;
+		skill1.coolTime--;
+		return skill2.damage * critical + 200;
 	}
 	else
 	{
-		cout << "평타 데미지" << _attack << endl;
+		skill2.coolTime--;
+		skill1.coolTime--;
 		return _attack * critical;
 	}
 }
 
-void ABG_Player::getDamage(int damage, bool isSkill)
+int ABG_Player::getDamage(int damage, bool isSkill)
 {
 	if (isSkill)
 	{
 		_hp -= (damage - _skillDef);
+		return damage - _skillDef + 100;
 	}
 	else
 	{
 		_hp -= (damage - _def);
+		return damage - _def;
 	}
 }
 

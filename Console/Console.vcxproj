@@ -211,7 +211,7 @@
     <ClCompile Include="11_과제2.cpp" />
     <ClCompile Include="11_과제3.cpp" />
     <ClCompile Include="11_과제Main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ABG_Enemy.cpp" />
     <ClCompile Include="ABG_Equipment.cpp" />

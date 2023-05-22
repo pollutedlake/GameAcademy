@@ -9,6 +9,29 @@ private:
 	int _attack;
 	int _mp;
 	int _speed;
+
+	char* enemyIdle[19] = { "    бсбсбс",
+							 "   бс    бс",
+							 "   бс    бс",
+							 "   бс    бс",
+							 "    бсбсбс",
+							 "      бс",
+							 "    бсбсбс",
+							 "бс бс бс бс",
+							 "  бс  бс  бс",
+							 "      бс бс",
+							 "      бсбс",
+							 "      бс",
+							 "      бс",
+							 "      бс",
+							 "    бс бс",
+							 "   бс   бс",
+							 " бс      бс",
+							 " бс      бс",
+							 " бс      бс",
+
+	};
+
 	struct skill
 	{
 		char* name;
@@ -30,6 +53,8 @@ public:
 	void setSpeed(int speed) { _speed = speed; }
 
 	int attack();
-	void getDamage(int damage);
+	int getDamage(int damage);
+	char* getSkill1Name() { return skill1.name; }
+	char* getEnemyDot(int i);
 };
 

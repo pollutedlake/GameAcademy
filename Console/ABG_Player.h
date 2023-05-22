@@ -16,6 +16,27 @@ private:
 	int _speed;
 	int _skillDef;
 
+	char* playerIdle[19] = { "  бсбсбс",
+								  " бс    бс",
+								  " бс    бс",
+								  " бс    бс",
+								  "  бсбсбс",
+								  "    бс",
+								  "  бсбсбс",
+								  " бс бс бс бс",
+								  "бс  бс  бс",
+								  " бс бс",
+								  "  бсбс",
+								  "    бс",
+								  "    бс",
+								  "    бс",
+								  "   бс бс",
+								  "  бс   бс",
+								  "бс      бс",
+								  "бс      бс",
+								  "бс      бс",
+	};
+
 	struct skill
 	{
 		char* name;
@@ -50,9 +71,12 @@ public:
 	void setSpeed(int speed) { _speed = speed; }
 	int getSkillDef() { return _skillDef; }
 	void setSkillDef(int skillDef) { _skillDef = skillDef; }
-
+	
+	char* getPlayerDot(int i);
 	int attack();
-	void getDamage(int damage, bool isSkill);
+	int getDamage(int damage, bool isSkill);
 	bool changeEquipment(ABG_Equipment* equipment, int type);
+	char* getSkill1Name() { return skill1.name; }
+	char* getSkill2Name() { return skill2.name; }
 };
 
