@@ -205,8 +205,19 @@
     <ClCompile Include="10_과제3.cpp" />
     <ClCompile Include="10_과제4.cpp" />
     <ClCompile Include="10_과제Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="11_과제1.cpp" />
+    <ClCompile Include="11_과제2.cpp" />
+    <ClCompile Include="11_과제3.cpp" />
+    <ClCompile Include="11_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="ABG_Enemy.cpp" />
+    <ClCompile Include="ABG_Equipment.cpp" />
+    <ClCompile Include="ABG_Player.cpp" />
+    <ClCompile Include="ABG_Portion.cpp" />
+    <ClCompile Include="BattleCruiser.cpp" />
     <ClCompile Include="Example_08.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -263,6 +274,8 @@
     <ClCompile Include="FG_Player.cpp" />
     <ClCompile Include="FG_UI.cpp" />
     <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MainGame_02.cpp" />
+    <ClCompile Include="MainGame_03.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -278,8 +291,17 @@
     <ClCompile Include="Main_05.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Main_06.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main_07.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Player_01.cpp" />
     <ClCompile Include="RPS_Me.cpp" />
     <ClCompile Include="RPS_Opponent.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Unit.cpp" />
     <ClCompile Include="과제 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -311,6 +333,14 @@
     <ClInclude Include="10_과제2.h" />
     <ClInclude Include="10_과제3.h" />
     <ClInclude Include="10_과제4.h" />
+    <ClInclude Include="11_과제1.h" />
+    <ClInclude Include="11_과제2.h" />
+    <ClInclude Include="11_과제3.h" />
+    <ClInclude Include="ABG_Enemy.h" />
+    <ClInclude Include="ABG_Equipment.h" />
+    <ClInclude Include="ABG_Player.h" />
+    <ClInclude Include="ABG_Portion.h" />
+    <ClInclude Include="BattleCruiser.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
     <ClInclude Include="Example_13.h" />
@@ -319,15 +349,17 @@
     <ClInclude Include="FG_Player.h" />
     <ClInclude Include="FG_UI.h" />
     <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MainGame_02.h" />
+    <ClInclude Include="MainGame_03.h" />
+    <ClInclude Include="Player_01.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RPS_Me.h" />
     <ClInclude Include="RPS_Opponent.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Console.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="bitmap2.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

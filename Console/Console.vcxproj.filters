@@ -205,6 +205,54 @@
     <ClCompile Include="FG_UI.cpp">
       <Filter>Lesson\10_클래스</Filter>
     </ClCompile>
+    <ClCompile Include="MainGame_02.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_06.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_01.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_07.cpp">
+      <Filter>Lesson\12_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame_03.cpp">
+      <Filter>Lesson\12_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Lesson\12_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Lesson\12_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCruiser.cpp">
+      <Filter>Lesson\12_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="11_과제Main.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="11_과제1.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="11_과제2.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="11_과제3.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="ABG_Enemy.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="ABG_Player.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="ABG_Portion.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="ABG_Equipment.cpp">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -236,6 +284,12 @@
     </Filter>
     <Filter Include="Lesson\10_클래스">
       <UniqueIdentifier>{9c45c74b-7458-40c0-a638-e1f387127510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\11_접근자+설정자">
+      <UniqueIdentifier>{77532da4-6462-4354-bee7-7491a0950c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\12_상속">
+      <UniqueIdentifier>{d229d6d8-7b03-4aed-9314-2aaff1ca2225}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -327,12 +381,50 @@
       <Filter>Lesson\10_클래스</Filter>
     </ClInclude>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="FG_UI.h" />
+    <ClInclude Include="MainGame_02.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="FG_UI.h">
+      <Filter>Lesson\10_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_01.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame_03.h">
+      <Filter>Lesson\12_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Lesson\12_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Lesson\12_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCruiser.h">
+      <Filter>Lesson\12_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="11_과제1.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="11_과제2.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="11_과제3.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="ABG_Player.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="ABG_Enemy.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="ABG_Portion.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="ABG_Equipment.h">
+      <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Console.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="bitmap2.bmp" />
   </ItemGroup>
 </Project>
