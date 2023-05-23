@@ -1,7 +1,7 @@
 #include "MainGame.h"
 
 // 생성자
-MainGame::MainGame() : m_nConstValue(0)
+MainGame::MainGame() : m_nConstValue(0) //: _x(0), _y(0)
 {
 	_Number = 500;
 	cout << "당분간 여기에 코딩하자" << endl;

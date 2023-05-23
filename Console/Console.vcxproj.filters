@@ -235,12 +235,6 @@
     <ClCompile Include="11_과제1.cpp">
       <Filter>Lesson\11_접근자+설정자</Filter>
     </ClCompile>
-    <ClCompile Include="11_과제2.cpp">
-      <Filter>Lesson\11_접근자+설정자</Filter>
-    </ClCompile>
-    <ClCompile Include="11_과제3.cpp">
-      <Filter>Lesson\11_접근자+설정자</Filter>
-    </ClCompile>
     <ClCompile Include="ABG_Enemy.cpp">
       <Filter>Lesson\11_접근자+설정자</Filter>
     </ClCompile>
@@ -252,6 +246,60 @@
     </ClCompile>
     <ClCompile Include="ABG_Equipment.cpp">
       <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_08.cpp">
+      <Filter>Lesson\13_가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame_04.cpp">
+      <Filter>Lesson\13_가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="13_과제Main.cpp">
+      <Filter>Lesson\13_가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="13_과제1.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerFirstNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerSecondNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerThirdNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes8.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFirstNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSecondNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerThirdNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="Referee.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="Virtualization.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="13_과제2.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="Answer.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="Num.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNum.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffering.cpp">
+      <Filter>Lesson\13_가상함수\과제\과제2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -290,6 +338,18 @@
     </Filter>
     <Filter Include="Lesson\12_상속">
       <UniqueIdentifier>{d229d6d8-7b03-4aed-9314-2aaff1ca2225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\13_가상함수">
+      <UniqueIdentifier>{97b8d8d5-76f7-42df-93c8-6983e80deeef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\13_가상함수\과제">
+      <UniqueIdentifier>{6e881608-cffe-425e-accc-c853e81d46d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\13_가상함수\과제\과제1">
+      <UniqueIdentifier>{fa08902d-95e9-40b5-a9f7-bb1fd62bece5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\13_가상함수\과제\과제2">
+      <UniqueIdentifier>{501030b0-194d-41f1-82b3-cf94d7481b9b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -380,7 +440,6 @@
     <ClInclude Include="FG_Enemy.h">
       <Filter>Lesson\10_클래스</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="MainGame_02.h">
       <Filter>Lesson\11_접근자+설정자</Filter>
     </ClInclude>
@@ -405,12 +464,6 @@
     <ClInclude Include="11_과제1.h">
       <Filter>Lesson\11_접근자+설정자</Filter>
     </ClInclude>
-    <ClInclude Include="11_과제2.h">
-      <Filter>Lesson\11_접근자+설정자</Filter>
-    </ClInclude>
-    <ClInclude Include="11_과제3.h">
-      <Filter>Lesson\11_접근자+설정자</Filter>
-    </ClInclude>
     <ClInclude Include="ABG_Player.h">
       <Filter>Lesson\11_접근자+설정자</Filter>
     </ClInclude>
@@ -422,6 +475,57 @@
     </ClInclude>
     <ClInclude Include="ABG_Equipment.h">
       <Filter>Lesson\11_접근자+설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame_04.h">
+      <Filter>Lesson\13_가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Lesson\13_가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="13_과제1.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerFirstNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerSecondNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerThirdNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes8.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFirstNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSecondNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerThirdNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="Referee.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtualization.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="13_과제2.h">
+      <Filter>Lesson\13_가상함수\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="Answer.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="Num.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNum.h">
+      <Filter>Lesson\13_가상함수\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffering.h">
+      <Filter>Lesson\13_가상함수\과제\과제2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
