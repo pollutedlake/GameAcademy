@@ -301,6 +301,27 @@
     <ClCompile Include="DoubleBuffering.cpp">
       <Filter>Lesson\13_가상함수\과제\과제2</Filter>
     </ClCompile>
+    <ClCompile Include="MainGame_05.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_09.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="14_과제Main.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="14_과제1.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="14_과제2.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -350,6 +371,18 @@
     </Filter>
     <Filter Include="Lesson\13_가상함수\과제\과제2">
       <UniqueIdentifier>{501030b0-194d-41f1-82b3-cf94d7481b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\14_STL벡터+이터레이터">
+      <UniqueIdentifier>{01d392f9-c5aa-45b9-915d-8175f74913ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\14_STL벡터+이터레이터\과제">
+      <UniqueIdentifier>{11654f24-7711-4291-b639-63607c0a0b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\14_STL벡터+이터레이터\과제\과제1">
+      <UniqueIdentifier>{8eda3ca8-c4ee-4198-9c84-ad269cd3b4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\14_STL벡터+이터레이터\과제\과제2">
+      <UniqueIdentifier>{e24884a8-ec3a-4d8e-9853-b8fda9435a48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -526,6 +559,21 @@
     </ClInclude>
     <ClInclude Include="DoubleBuffering.h">
       <Filter>Lesson\13_가상함수\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame_05.h">
+      <Filter>Lesson\14_STL벡터+이터레이터</Filter>
+    </ClInclude>
+    <ClInclude Include="14_과제1.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제1</Filter>
+    </ClInclude>
+    <ClInclude Include="14_과제2.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

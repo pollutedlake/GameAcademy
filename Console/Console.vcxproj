@@ -213,7 +213,14 @@
     </ClCompile>
     <ClCompile Include="13_과제1.cpp" />
     <ClCompile Include="13_과제2.cpp" />
-    <ClCompile Include="13_과제Main.cpp" />
+    <ClCompile Include="13_과제Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="14_과제1.cpp" />
+    <ClCompile Include="14_과제2.cpp" />
+    <ClCompile Include="14_과제Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ABG_Enemy.cpp" />
     <ClCompile Include="ABG_Equipment.cpp" />
     <ClCompile Include="ABG_Player.cpp" />
@@ -225,6 +232,7 @@
     <ClCompile Include="BattleCruiser.cpp" />
     <ClCompile Include="Classes8.cpp" />
     <ClCompile Include="DoubleBuffering.cpp" />
+    <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="Example_08.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -284,6 +292,7 @@
     <ClCompile Include="MainGame_02.cpp" />
     <ClCompile Include="MainGame_03.cpp" />
     <ClCompile Include="MainGame_04.cpp" />
+    <ClCompile Include="MainGame_05.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -308,7 +317,11 @@
     <ClCompile Include="Main_08.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Main_09.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Num.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayerFirstNum.cpp" />
     <ClCompile Include="PlayerNum.cpp" />
     <ClCompile Include="PlayerSecondNum.cpp" />
@@ -354,6 +367,8 @@
     <ClInclude Include="11_과제1.h" />
     <ClInclude Include="13_과제1.h" />
     <ClInclude Include="13_과제2.h" />
+    <ClInclude Include="14_과제1.h" />
+    <ClInclude Include="14_과제2.h" />
     <ClInclude Include="ABG_Enemy.h" />
     <ClInclude Include="ABG_Equipment.h" />
     <ClInclude Include="ABG_Player.h" />
@@ -365,6 +380,7 @@
     <ClInclude Include="BattleCruiser.h" />
     <ClInclude Include="Classes8.h" />
     <ClInclude Include="DoubleBuffering.h" />
+    <ClInclude Include="Equipment.h" />
     <ClInclude Include="Example_10.h" />
     <ClInclude Include="Example_12.h" />
     <ClInclude Include="Example_13.h" />
@@ -376,7 +392,9 @@
     <ClInclude Include="MainGame_02.h" />
     <ClInclude Include="MainGame_03.h" />
     <ClInclude Include="MainGame_04.h" />
+    <ClInclude Include="MainGame_05.h" />
     <ClInclude Include="Num.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerFirstNum.h" />
     <ClInclude Include="PlayerNum.h" />
     <ClInclude Include="PlayerSecondNum.h" />
