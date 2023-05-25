@@ -16,8 +16,6 @@ Armor::~Armor()
 
 void Armor::printEquipment()
 {
-	cout << "이름 : " << _name << endl;
-	cout << "가격 : " << _price << endl;
+	Equipment::printEquipment();
 	cout << "방어력 : " << _def << endl;
-	cout << "특징 : " << _explanation << endl;
 }

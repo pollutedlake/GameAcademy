@@ -3,13 +3,13 @@
 class Accessory : public Equipment
 {
 private:
-	int _luck;
+	int _criticalRate;
 public:
 	Accessory(char* name, int price, int stats, char* explanation, int type);
 	~Accessory();
 
 	void printEquipment();
-	void setLuck(int luck) { _luck = luck; }
-	int getLuck() { return _luck; }
+	void setCriticalRate(int criticalRate) { _criticalRate = criticalRate; }
+	int getCriticalRate() { return _criticalRate; }
 };
 

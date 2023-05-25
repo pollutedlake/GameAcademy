@@ -9,10 +9,6 @@
 #include<vector>
 using namespace std;
 
-#define WEAPON		0
-#define ARMOR		1
-#define ACCESSORY	2
-
 struct Equimpents
 {
 	char* name;
@@ -22,12 +18,25 @@ struct Equimpents
 	int type;
 };
 
+enum EquipmentType
+{
+	WEAPON,
+	ARMOR,
+	ACCESSORY,
+	TypeNum
+};
+
 class Shop
 {
 private:
 	Player* player;
 	vector<Equipment*> saleItem;
 	Equipment* equipment;
+	int* equipmentN = new int[TypeNum];
+	int weaponN;
+	int armorN;
+	int accessoryN;
+
 public:
 	Shop();
 	~Shop();
@@ -36,6 +45,8 @@ public:
 	void linePrint();
 	int printDoWhat();
 	int printEquipmentType();
-	void purchaseEquipment(int type);
+	bool purchaseEquipment(int type);
+	void sellEquipment();
+	void wearEquipment();
 	void textColor(int color, int background);
 };

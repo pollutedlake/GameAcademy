@@ -12,7 +12,6 @@ protected:
 
 public:
 	Equipment();
-	Equipment(char* name, int price, int stats, char* explanation, int type);
 	virtual ~Equipment() {}
 
 	void setName(char* name) { _name = name; }
@@ -22,6 +21,6 @@ public:
 	int getType() { return _type; }
 	void setExplanation(char* explanation) { _explanation = explanation; }
 	char* getExplanation() { return _explanation; }
-	virtual void printEquipment() {}
+	virtual void printEquipment();
 };
 

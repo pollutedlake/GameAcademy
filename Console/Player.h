@@ -13,9 +13,12 @@ private:
 	int _def;
 	int _mp;
 	int _speed;
-	int _luck;
+	int _criticalRate;
 	int _money;
 	vector<Equipment*> inventory;
+	Armor* armor;
+	Weapon* weapon;
+	Accessory* accessory;
 
 public:
 	Player();
@@ -25,7 +28,7 @@ public:
 	void setDef(int def) { _def = def; }
 	void setMp(int mp) { _mp = mp; }
 	void setSpeed(int speed) { _speed = speed; }
-	void setLuck(int luck) { _luck = luck; }
+	void setLuck(int criticalRate) { _criticalRate = criticalRate; }
 	void setHp(int hp) { _hp = hp; }
 	void setMoney(int money) { _money = money; }
 
@@ -33,12 +36,17 @@ public:
 	int getDef() { return _def; }
 	int getMp() { return _mp; }
 	int getSpeed() { return _speed; }
-	int getLuck() { return _luck; }
+	int getCriticalRate() { return _criticalRate; }
 	int getHp() { return _hp; }
 	int getMoney() { return _money; }
 
 	void putInventory(Equipment* equipment);
-	void wearEquipment(Equipment* equipment);
-	void printInventory()
+	void wearEquipment(int index);
+	void printInventory();
+	int getInventorySize();
+	Equipment* getEquipment(int index);
+	void takeOutEquipment(int index);
+	void printStatus();
+	void linePrint();
 };
 
