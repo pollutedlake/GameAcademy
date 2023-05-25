@@ -322,6 +322,21 @@
     <ClCompile Include="Equipment.cpp">
       <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
     </ClCompile>
+    <ClCompile Include="MainGame_06.cpp">
+      <Filter>Lesson\15. 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_10.cpp">
+      <Filter>Lesson\15. 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessory.cpp">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -383,6 +398,9 @@
     </Filter>
     <Filter Include="Lesson\14_STL벡터+이터레이터\과제\과제2">
       <UniqueIdentifier>{e24884a8-ec3a-4d8e-9853-b8fda9435a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\15. 맵">
+      <UniqueIdentifier>{5b00750c-fd57-41aa-af25-c4801040aa46}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -573,6 +591,18 @@
       <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
     </ClInclude>
     <ClInclude Include="Equipment.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame_06.h">
+      <Filter>Lesson\15. 맵</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessory.h">
       <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,4 +1,10 @@
 #pragma once
+#include"Equipment.h"
+#include"Weapon.h"
+#include"Armor.h"
+#include"Accessory.h"
+#include<vector>
+
 class Player
 {
 private:
@@ -8,6 +14,9 @@ private:
 	int _mp;
 	int _speed;
 	int _luck;
+	int _money;
+	vector<Equipment*> inventory;
+
 public:
 	Player();
 	~Player();
@@ -18,6 +27,7 @@ public:
 	void setSpeed(int speed) { _speed = speed; }
 	void setLuck(int luck) { _luck = luck; }
 	void setHp(int hp) { _hp = hp; }
+	void setMoney(int money) { _money = money; }
 
 	int getAtt() { return _att; }
 	int getDef() { return _def; }
@@ -25,5 +35,10 @@ public:
 	int getSpeed() { return _speed; }
 	int getLuck() { return _luck; }
 	int getHp() { return _hp; }
+	int getMoney() { return _money; }
+
+	void putInventory(Equipment* equipment);
+	void wearEquipment(Equipment* equipment);
+	void printInventory()
 };
 

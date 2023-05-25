@@ -216,7 +216,9 @@
     <ClCompile Include="13_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="14_과제1.cpp" />
+    <ClCompile Include="14_과제1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="14_과제2.cpp" />
     <ClCompile Include="14_과제Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -225,10 +227,12 @@
     <ClCompile Include="ABG_Equipment.cpp" />
     <ClCompile Include="ABG_Player.cpp" />
     <ClCompile Include="ABG_Portion.cpp" />
+    <ClCompile Include="Accessory.cpp" />
     <ClCompile Include="Answer.cpp" />
     <ClCompile Include="AnswerFirstNum.cpp" />
     <ClCompile Include="AnswerSecondNum.cpp" />
     <ClCompile Include="AnswerThirdNum.cpp" />
+    <ClCompile Include="Armor.cpp" />
     <ClCompile Include="BattleCruiser.cpp" />
     <ClCompile Include="Classes8.cpp" />
     <ClCompile Include="DoubleBuffering.cpp" />
@@ -293,6 +297,7 @@
     <ClCompile Include="MainGame_03.cpp" />
     <ClCompile Include="MainGame_04.cpp" />
     <ClCompile Include="MainGame_05.cpp" />
+    <ClCompile Include="MainGame_06.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -320,6 +325,9 @@
     <ClCompile Include="Main_09.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Main_10.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Num.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayerFirstNum.cpp" />
@@ -333,6 +341,7 @@
     <ClCompile Include="Tank.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="Virtualization.cpp" />
+    <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="과제 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -373,10 +382,12 @@
     <ClInclude Include="ABG_Equipment.h" />
     <ClInclude Include="ABG_Player.h" />
     <ClInclude Include="ABG_Portion.h" />
+    <ClInclude Include="Accessory.h" />
     <ClInclude Include="Answer.h" />
     <ClInclude Include="AnswerFirstNum.h" />
     <ClInclude Include="AnswerSecondNum.h" />
     <ClInclude Include="AnswerThirdNum.h" />
+    <ClInclude Include="Armor.h" />
     <ClInclude Include="BattleCruiser.h" />
     <ClInclude Include="Classes8.h" />
     <ClInclude Include="DoubleBuffering.h" />
@@ -393,6 +404,7 @@
     <ClInclude Include="MainGame_03.h" />
     <ClInclude Include="MainGame_04.h" />
     <ClInclude Include="MainGame_05.h" />
+    <ClInclude Include="MainGame_06.h" />
     <ClInclude Include="Num.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerFirstNum.h" />
@@ -407,6 +419,7 @@
     <ClInclude Include="Tank.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="Virtualization.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Console.rc" />

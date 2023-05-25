@@ -14,9 +14,8 @@ class Vector
 {
 private:
 	vector<int> intVector;
-	vector<int>::iterator intVIterator;
 	vector<STData> structVector;
-	vector<STData>::iterator structVIterator;
+	//vector<STData>::iterator structVIterator;
 public:
 	Vector();
 	~Vector();

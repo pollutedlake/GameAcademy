@@ -23,21 +23,53 @@
 Shop::Shop()
 {
 	player = new Player;
+	Equimpents resource[9] = { {"월식", 3200, 45, "동일한 적에게 3번 공격 시 피해를 흡수하는 보호막을 형성합니다.", WEAPON},
+							   {"무라마나", 2900, 42, "적에게 공격 시 최대 마나량에 비례한 추가피해를 입힙니다.", WEAPON},
+							   {"세릴다의 원한", 3300, 46, "적에게 공격 시 일정 시간 동안 둔화시킵니다.", WEAPON},
+							   {"수호천사", 2700, 30, "착용자가 사망 시 일정 체력을 가지고 부활합니다.", ARMOR},
+							   {"태양불꽃 방패", 3100, 35, "착용자 주위의 일정 범위 내의 적에게 지속피해를 줍니다.", ARMOR},
+							   {"워모그의 갑옷", 3500, 40, "착용자가 잠시동안 피해를 받지 않으면 일정 속도로 체력을 회복합니다.", ARMOR},
+							   {"존야의 모래시계", 1400, 15, "사용 시 잠시동안 무적이 되고 사용자를 대상으로 지정할 수 없습니다.", ACCESSORY},
+							   {"강철의 솔라리 팬던트", 1200, 10, "사용 시 자신과 주변 동료들에게 보호막을 생성합니다.", ACCESSORY},
+							   {"구원", 1800, 20, "사용 시 지정 위치에 아군에게 힐을 해주는 장판이 일시적으로 생성됩니다.", ACCESSORY}};
+	for (int i = 0; i < sizeof(resource) / sizeof(resource[0]); i++)
+	{
+		switch (resource[i].type)
+		{
+		case WEAPON:
+			equipment = new Weapon(resource[i].name, resource[i].price, resource[i].stats, resource[i].explanation, resource[i].type);
+			break;
+		case ARMOR:
+			equipment = new Armor(resource[i].name, resource[i].price, resource[i].stats, resource[i].explanation, resource[i].type);
+			break;
+		case ACCESSORY:
+			equipment = new Accessory(resource[i].name, resource[i].price, resource[i].stats, resource[i].explanation, resource[i].type);
+			break;
+		}
+		saleItem.push_back(equipment);
+	}
 }
 
 Shop::~Shop()
 {
 	delete player;
+	delete equipment;
 }
 
 void Shop::startShopping()
 {
+	
 	while (true)
 	{
 		switch (printDoWhat())
 		{
+			int type;
 		case 0:
-			printEquipmentType();
+			type = printEquipmentType();
+			if (type >= 0 && type <= 2)
+			{
+				purchaseEquipment(type);
+			}
 			break;
 		case 1:
 			system("cls");
@@ -750,6 +782,52 @@ int Shop::printEquipmentType()
 	linePrint();
 	cin >> choice;
 	return choice;
+}
+
+void Shop::purchaseEquipment(int type)
+{
+	system("cls");
+	linePrint();
+	linePrint();
+	int index = 1;
+	for (auto sIIterator = saleItem.begin(); sIIterator != saleItem.end(); ++sIIterator)
+	{
+		if ((*sIIterator)->getType() == type)
+		{
+			cout << index << "번 장비" << endl;
+			(*sIIterator)->printEquipment();
+			linePrint();
+			index++;
+		}
+	}
+	linePrint();
+	cout << "현재 소지금 : " << player->getMoney() << endl;
+	cout << "구매할 장비의 번호를 입력하세요(그 외 : 뒤로가기) : ";
+	int choice;
+	cin >> choice;
+	if (choice > 0 && index >= choice)
+	{
+		int count = 0;
+		for (auto sIIterator = saleItem.begin(); sIIterator != saleItem.end(); ++sIIterator)
+		{
+			if ((*sIIterator)->getType() == type)
+			{
+				if (++count == choice)
+				{
+					player->putInventory((*sIIterator));
+					if (player->setMoney(player->getMoney() < (*sIIterator)->getPrice()))
+					{
+
+					}
+					player->setMoney(player->getMoney() - (*sIIterator)->getPrice());
+				}
+			}
+		}
+	}
+	else
+	{
+		return;
+	}
 }
 
 void Shop::textColor(int font, int background)
