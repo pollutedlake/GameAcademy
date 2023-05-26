@@ -214,14 +214,14 @@
     <ClCompile Include="13_과제1.cpp" />
     <ClCompile Include="13_과제2.cpp" />
     <ClCompile Include="13_과제Main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="14_과제1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="14_과제2.cpp" />
     <ClCompile Include="14_과제Main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ABG_Enemy.cpp" />
     <ClCompile Include="ABG_Equipment.cpp" />
@@ -298,6 +298,7 @@
     <ClCompile Include="MainGame_04.cpp" />
     <ClCompile Include="MainGame_05.cpp" />
     <ClCompile Include="MainGame_06.cpp" />
+    <ClCompile Include="MainGame_07.cpp" />
     <ClCompile Include="main_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -326,6 +327,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Main_10.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main_11.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Num.cpp" />
@@ -405,6 +409,7 @@
     <ClInclude Include="MainGame_04.h" />
     <ClInclude Include="MainGame_05.h" />
     <ClInclude Include="MainGame_06.h" />
+    <ClInclude Include="MainGame_07.h" />
     <ClInclude Include="Num.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerFirstNum.h" />

@@ -65,6 +65,10 @@ Shop::~Shop()
 	delete player;
 	delete equipment;
 	delete equipmentN;
+	for (auto iterator = saleItem.begin(); iterator != saleItem.end(); ++iterator)
+	{
+		delete* iterator;
+	}
 	saleItem.clear();
 }
 

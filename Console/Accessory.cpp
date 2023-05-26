@@ -2,6 +2,7 @@
 
 Accessory::Accessory(char* name, int price, int stats, char* explanation, int type)
 {
+	//Equipment::Equipment(name, price, explanation, type);
 	_name = name;
 	_price = price;
 	_criticalRate = stats;

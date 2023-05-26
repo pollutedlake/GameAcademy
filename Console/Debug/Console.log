@@ -1,5 +1,5 @@
-﻿  Accessory.cpp
-  Armor.cpp
-  Weapon.cpp
-  코드를 생성하고 있습니다...
-  Console.vcxproj -> C:\Users\psh95\OneDrive\바탕 화면\상현\공부\GameAcademy\GameAcademy\GameAcademy\Debug\Console.exe
+﻿  DoubleBuffering.cpp
+C:\Users\언리얼\source\repos\Console\Console\DoubleBuffering.cpp(52,30): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\언리얼\source\repos\Console\Console\DoubleBuffering.cpp(52,39): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  13_과제Main.cpp
+  Console.vcxproj -> C:\Users\언리얼\source\repos\Console\Debug\Console.exe

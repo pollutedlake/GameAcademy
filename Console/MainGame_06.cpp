@@ -85,6 +85,10 @@ MainGame_06::MainGame_06()
 	cout << '\n';
 
 	// 한줄 조사. decltype
+	// 둘 다 컴파일시 타입을 반환하지만 auto는 값에 맞는 타입을 추론해준다면 decltype은 값에 맞는 타입을 추출
+	// auto 사용자가 원하는 값이 나오지 않을 수 있고 표현식같은 경우 사용못함 ex) const, &, volitale
+	// 대입식에서 오른쪽에만 올 수 있다. rValue 주소값을 참조할 수 없는 데이터
+	// 대입식에서 왼쪽 오른쪽에 올 수 있다. lValue 주소값을 참조할 수 있는 데이터
 
 	map<string, int> valueList;
 

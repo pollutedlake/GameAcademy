@@ -12,6 +12,7 @@ protected:
 
 public:
 	Equipment();
+	Equipment(char* name, int price, char* explanation, int type);
 	virtual ~Equipment() {}
 
 	void setName(char* name) { _name = name; }

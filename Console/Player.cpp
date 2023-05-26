@@ -13,7 +13,11 @@ Player::Player()
 
 Player::~Player()
 {
-
+	for (auto iterator = inventory.begin(); iterator != inventory.end(); ++iterator)
+	{
+		delete* iterator;
+	}
+	inventory.clear();
 }
 
 void Player::putInventory(Equipment* equipment)

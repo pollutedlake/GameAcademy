@@ -337,6 +337,12 @@
     <ClCompile Include="Accessory.cpp">
       <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
     </ClCompile>
+    <ClCompile Include="MainGame_07.cpp">
+      <Filter>Lesson\16. 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_11.cpp">
+      <Filter>Lesson\16. 템플릿</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Lesson">
@@ -401,6 +407,9 @@
     </Filter>
     <Filter Include="Lesson\15. 맵">
       <UniqueIdentifier>{5b00750c-fd57-41aa-af25-c4801040aa46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson\16. 템플릿">
+      <UniqueIdentifier>{3cc53689-1862-4751-87da-3810d2170452}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -604,6 +613,9 @@
     </ClInclude>
     <ClInclude Include="Accessory.h">
       <Filter>Lesson\14_STL벡터+이터레이터\과제\과제2</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame_07.h">
+      <Filter>Lesson\16. 템플릿</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

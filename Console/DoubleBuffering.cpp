@@ -1,8 +1,10 @@
 #include "DoubleBuffering.h"
+#include<iostream>
+using namespace std;
 
 DoubleBuffering::DoubleBuffering()
 {
-
+	g_nScreenIndex = 0;
 }
 
 DoubleBuffering::~DoubleBuffering()
@@ -42,10 +44,28 @@ void DoubleBuffering::screenRelease()
 	CloseHandle(g_hScreen[1]);
 }
 
-void DoubleBuffering::ScreenPrint(int x, int y, char* string)
+void DoubleBuffering::screenLine(int x, int y, int color[SCREENWIDTH])
 {
 	DWORD dw;
-	COORD CursorPosition = { x, y };
-	SetConsoleCursorPosition(g_hScreen[g_nScreenIndex], CursorPosition);
-	WriteFile(g_hScreen[g_nScreenIndex], string, strlen(string), &dw, NULL);
+	for (int i = 0; i < SCREENWIDTH; i++)
+	{
+		COORD CursorPosition = { x + i * 2, y };
+		setColor(color[i], color[i]);
+		SetConsoleCursorPosition(g_hScreen[g_nScreenIndex], CursorPosition);
+		WriteFile(g_hScreen[g_nScreenIndex], "бс", strlen("бс"), &dw, NULL);
+	}
+}
+
+void DoubleBuffering::screenPrint()
+{
+	for (int i = 0; i < SCREENHEIGHT; i++)
+	{
+		screenLine(0, i,dotColors[i]);
+	}
+}
+
+void DoubleBuffering::setColor(int font, int background)
+{
+	int color = font + background * 16;
+	SetConsoleTextAttribute(g_hScreen[g_nScreenIndex], color);
 }
